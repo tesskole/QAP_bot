@@ -2,7 +2,7 @@ import telebot
 from config import token, keys
 from extensions import ExchangeException, Exchange
 
-bot = telebot.TeleBot(token)
+bot = telebot.TeleBot()
 
 
 @bot.message_handler(commands=['start'])
